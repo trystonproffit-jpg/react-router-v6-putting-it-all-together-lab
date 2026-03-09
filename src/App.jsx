@@ -11,7 +11,6 @@ import AddMovie from "./pages/Directors/AddMovie";
 import MovieCard from "./pages/MovieCard";
 
 const App = () => (
-  <BrowserRouter>
   <Routes>
     <Route path="/" element={<Layout />}>
       <Route index element={<Home />} />
@@ -25,7 +24,6 @@ const App = () => (
       </Route>
     </Route>
   </Routes>
-</BrowserRouter>
 );
 
 export default App;
